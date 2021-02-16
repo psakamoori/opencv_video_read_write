@@ -20,7 +20,7 @@ while(True):
      frame_cnt += 1
      print("Frame Counter: ", frame_cnt, end='\r')
   else:
-    print("End of Stream..\n")
+    print("\n End of Stream..\n")
     break
 vclip.release()
 out.release()
